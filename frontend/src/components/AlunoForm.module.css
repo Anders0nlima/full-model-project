@@ -1,8 +1,8 @@
 /* src/components/AlunoForm.module.css */
 
 .formContainer {
-    max-width: 450px;
-    margin: 20px 0 40px;
+    max-width: 500px;
+    margin: 0 auto;
     padding: 25px;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
