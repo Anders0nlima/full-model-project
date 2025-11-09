@@ -1,0 +1,74 @@
+/* src/components/AlunoTable.module.css */
+
+.tableContainer {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.tableContainer table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95em;
+    min-width: 500px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tableContainer thead tr {
+    background-color: #2c3e50; /* Azul escuro */
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.tableContainer th, .tableContainer td {
+    padding: 12px 15px;
+}
+
+.tableContainer tbody tr {
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.tableContainer tbody tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+}
+
+.tableContainer tbody tr:hover {
+    background-color: #e8f6ff; /* Leve destaque ao passar o mouse */
+}
+
+/* Botões */
+.actionsCell {
+    white-space: nowrap;
+}
+
+.actionsCell button {
+    padding: 8px 12px;
+    margin-left: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px; /* Borda mais arredondada */
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+.btnEdit {
+    background-color: #3498db; /* Azul */
+    color: white;
+}
+
+.btnEdit:hover {
+    background-color: #2980b9;
+    transform: translateY(-1px);
+}
+
+.btnDelete {
+    background-color: #e74c3c; /* Vermelho */
+    color: white;
+}
+
+.btnDelete:hover {
+    background-color: #c0392b;
+    transform: translateY(-1px);
+}

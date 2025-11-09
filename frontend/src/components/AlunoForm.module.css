@@ -1,0 +1,76 @@
+/* src/components/AlunoForm.module.css */
+
+.formContainer {
+    max-width: 450px;
+    margin: 20px 0 40px;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.formContainer h3 {
+    color: #34495e;
+    margin-top: 0;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 10px;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #34495e;
+}
+
+.inputField {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    box-sizing: border-box; /* Garante que padding não afete a largura total */
+    transition: border-color 0.2s;
+}
+
+.inputField:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Ações e Botões */
+.actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btnSubmit, .btnCancel {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background-color 0.2s;
+}
+
+.btnSubmit {
+    background-color: #27ae60; /* Verde para sucesso/cadastro */
+    color: white;
+}
+
+.btnSubmit:hover {
+    background-color: #2ecc71;
+}
+
+.btnCancel {
+    background-color: #f39c12; /* Laranja para cancelar */
+    color: white;
+}
+
+.btnCancel:hover {
+    background-color: #f1c40f;
+}
