@@ -80,8 +80,6 @@ app.delete("/:id", async(req, res) => {
 
 })
 
-const PORT = process.env.PORT || 3000; // Usa a porta do ambiente (Render), ou 3000 localmente
-
-app.listen(PORT, () => {
-    console.log(`Servidor rodando em: http://localhost:${PORT}`)
+app.listen(3000, () => {
+    console.log(`Servidor rodando em: http://localhost:3000`)
 })
