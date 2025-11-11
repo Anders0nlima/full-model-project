@@ -1,6 +1,6 @@
 // src/services/api.js
 
-const API_URL = "http://localhost:3000";  //"https://full-model-project-1.onrender.com/";
+const API_URL = "https://full-model-project.onrender.com/"; //"http://localhost:3000";
 // Lembre-se: O backend DEVE estar rodando e ter o CORS configurado!
 
 // ----------------------------------------------------
