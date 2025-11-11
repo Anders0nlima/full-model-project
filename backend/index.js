@@ -30,7 +30,7 @@ app.get("/:id", async (req, res) => {
 
 })
 
-app.post("/cadatrar", async (req, res) => {
+app.post("/cadastrar", async (req, res) => {
     const { nome, idade } = req.body
 
     if(!idade){
